@@ -13,6 +13,6 @@ export class birdControl extends Component {
   update(deltaTime: number) {}
 
   fly () {
-    this.getComponent(RigidBody2D).linearVelocity = v2(0, 2);
+    this.getComponent(RigidBody2D).linearVelocity = v2(0, 3);
   }
 }
