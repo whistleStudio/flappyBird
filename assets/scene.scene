@@ -472,8 +472,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -2.322,
-      "y": 14.263,
+      "x": -50,
+      "y": 20,
       "z": 0
     },
     "_lrot": {
@@ -666,7 +666,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": 130,
       "y": 0,
       "z": 0
     },
@@ -1053,13 +1053,13 @@
     "_restitution": 0,
     "_offset": {
       "__type__": "cc.Vec2",
-      "x": 20.2,
-      "y": 0.1
+      "x": 38.3,
+      "y": 0.2
     },
     "_size": {
       "__type__": "cc.Size",
-      "width": 9.9,
-      "height": 97.7
+      "width": 7.1,
+      "height": 97.8
     },
     "_id": "841Q7zo2JFcIJRqr3TAmyf"
   },
@@ -1344,7 +1344,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 41.56355049435028,
+      "width": 55.73898305084746,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -1374,7 +1374,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "score",
+    "_string": "score 0",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 29.384765625,
@@ -1419,7 +1419,7 @@
   {
     "__type__": "cc.Node",
     "_name": "title",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "__editorExtras__": {},
     "_parent": {
       "__id__": 2
@@ -1474,7 +1474,7 @@
   {
     "__type__": "cc.Node",
     "_name": "SpriteSplash",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "__editorExtras__": {},
     "_parent": {
       "__id__": 50
@@ -1583,7 +1583,7 @@
   {
     "__type__": "cc.Node",
     "_name": "gameover",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "__editorExtras__": {},
     "_parent": {
       "__id__": 50
@@ -1715,7 +1715,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Button",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "__editorExtras__": {},
     "_parent": {
       "__id__": 50
