@@ -1,6 +1,7 @@
 import { _decorator, Component, instantiate, Node, Prefab, resources, Sprite, SpriteFrame, UITransform } from "cc";
 import { birdControl } from "./birdControl";
 const { ccclass, property } = _decorator;
+import { StateManager, GameState } from "./StateManager";
 
 @ccclass("bgControl")
 export class bgControl extends Component {
@@ -26,12 +27,14 @@ export class bgControl extends Component {
     // 监听点击事件
     for (let bg of this.node.children) {
       bg.on(Node.EventType.TOUCH_START, () => {
+        if (StateManager.getInstance().gameState === GameState.GAME_OVER) return
         this.birdControl.fly();
       }, this);
     }
   }
 
   update(deltaTime: number) {
+    if (StateManager.getInstance().gameState === GameState.GAME_OVER) return
     // 滚屏
     for (let bg of this.node.children) {
       bg.setPosition(bg.position.x - this.speed * deltaTime, bg.position.y);
